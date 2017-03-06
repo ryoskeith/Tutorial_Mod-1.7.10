@@ -17,12 +17,11 @@
  **************************************************************************************************/
 
 package com.ryodev.tutorialmod;
-//version control with git hub
 //items
 //blocks
+//colored names for blocks and items
 //tool enums
 //tools
-//colored names for blocks and items
 //ore dictionary
 //language file
 //crafting recipes
@@ -31,6 +30,7 @@ package com.ryodev.tutorialmod;
 //food items
 import com.ryodev.tutorialmod.events.LoginChat;
 import com.ryodev.tutorialmod.handlers.ConfigurationHandler;
+import com.ryodev.tutorialmod.init.InitItems;
 import com.ryodev.tutorialmod.proxy.IProxy;
 import com.ryodev.tutorialmod.reference.Reference;
 import com.ryodev.tutorialmod.update.UpdateCheck;
@@ -63,6 +63,8 @@ public class TutoralMod
         LogHelper.info("Checking for updates");
         UpdateCheck.checkForUpdates();
         FMLCommonHandler.instance().bus().register(new LoginChat());
+        LogHelper.info("Register Items");
+        InitItems.registerItems();
         LogHelper.info("preInitialization Complete");
     }
 
