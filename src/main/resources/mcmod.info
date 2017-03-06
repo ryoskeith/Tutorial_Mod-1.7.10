@@ -1,0 +1,21 @@
+[
+{
+  "modid": "TutorialMod",
+  "name": "§6Tutorial Mod",
+  "description": "
+This is a tutorial mod.
+
+§2Supporters:
+§4Important Info:
+",
+  "version": "§a0.0.1",
+  "mcversion": "§a1.7.10",
+  "url": "§9http://ryodev.com",
+  "updateUrl": "",
+  "authorList": ["§6Phoenix"],
+  "credits": "§6Forge§f, §6FML",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
