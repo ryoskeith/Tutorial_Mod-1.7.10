@@ -63,6 +63,7 @@ public class TutoralMod
         LogHelper.info("Checking for updates");
         UpdateCheck.checkForUpdates();
         FMLCommonHandler.instance().bus().register(new LoginChat());
+        //this is a change
         LogHelper.info("preInitialization Complete");
     }
 
