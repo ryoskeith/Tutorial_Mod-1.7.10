@@ -1,7 +1,6 @@
 package com.ryodev.tutorialmod.init;
 
 
-import com.ryodev.tutorialmod.items.Ingots;
 import com.ryodev.tutorialmod.items.base.BaseItem;
 import cpw.mods.fml.common.registry.GameRegistry;
 
